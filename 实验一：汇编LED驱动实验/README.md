@@ -18,13 +18,13 @@ DDR（Double Data Rate）：是一种内存技术，用于<u>存储和读取计�
 
 #### 1. ALPHA开发板LED灯硬件原理分析：
 
-![image-20230809181435868](https://github.com/Scholar618/I.MX6ULL-ALPHA/tree/main/pictures/image-20230809181435868.png)
+![image-20230809181435868](https://github.com/Scholar618/I.MX6ULL-ALPHA/blob/main/pictures/image-20230809181435868.png)
 
-![image-20230809181507424](https://github.com/Scholar618/I.MX6ULL-ALPHA/tree/main/pictures/image-20230809181507424.png)
+![image-20230809181507424](https://github.com/Scholar618/I.MX6ULL-ALPHA/blob/main/pictures/image-20230809181507424.png)
 
 由原理图可知，LED0接到了GPIO1_3，于是我们查看I.MX6U参考手册中的GPIO3
 
-![image-20230809182317954](https://github.com/Scholar618/I.MX6ULL-ALPHA/tree/main/pictures/image-20230809182317954.png)
+![image-20230809182317954](https://github.com/Scholar618/I.MX6ULL-ALPHA/blob/main/pictures/image-20230809182317954.png)
 
 首先，我们先来了解STM32 IO 初始化流程：
 
