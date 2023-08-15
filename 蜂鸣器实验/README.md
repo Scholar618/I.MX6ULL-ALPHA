@@ -2,7 +2,7 @@
 
 ### 一、硬件原理图分析
 
-![image-20230812160548560](https://github.com/Scholar618/I.MX6ULL-ALPHA/tree/main/pictures/image-20230812160548560.png)
+![image-20230812160548560](https://github.com/Scholar618/I.MX6ULL-ALPHA/blob/main/pictures/image-20230812160548560.png)
 
 BEEP控制IO为SNVS_TAMPER1，**当输出低电平时蜂鸣器响，输出高电平时蜂鸣器不响**
 
