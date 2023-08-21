@@ -1,6 +1,7 @@
 #include "fsl_common.h"
 #include "fsl_iomuxc.h"
 #include "MCIMX6Y2.h"
+
 /*初始化使能外设时钟*/
 void clk_enable(void) {
     CCM->CCGR0 = 0xFFFFFFFF;
